@@ -412,6 +412,7 @@
             <a class="contacts" href="tel:+380991111111">+38 099 111 11 11</a>
           </address>
         </div>
+
         <div class="footer-social">
           <p class="footer-title">присоединяйтесь</p>
           <ul class="footer-list">
@@ -445,6 +446,10 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscribe">
+          <p class="footer-title">подпишитесь на рассылку</p>
+        </div>
       </div>
     </footer>
 
@@ -457,6 +462,98 @@
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
+
+        <div class="contact-details">
+          <h2 class="contact-details-title title">
+            Оставьте свои данные, мы вам перезвоним
+          </h2>
+
+          <form action="" class="contact-details-form">
+            <div class="contact-details-form-field">
+              <label for="contact-details-name" class="contact-details-label"
+                >Имя</label
+              >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="name"
+                  id="contact-details-name"
+                  class="contact-details-input"
+                />
+
+                <svg class="contact-details-icon" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-person-black"></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="contact-details-form-field">
+              <label for="contact-details-tel" class="contact-details-label"
+                >Телефон</label
+              >
+              <div class="input-wrapper">
+                <input
+                  type="tel"
+                  name="tel"
+                  id="contact-details-tel"
+                  class="contact-details-input"
+                />
+                <svg class="contact-details-icon" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-phone-black"></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="contact-details-form-field">
+              <label for="contact-details-email" class="contact-details-label"
+                >Почта</label
+              >
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  name="tel"
+                  id="contact-details-email"
+                  class="contact-details-input"
+                />
+                <svg class="contact-details-icon" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-email-black"></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="contact-details-form-field">
+              <label for="contact-details-comment" class="contact-details-label"
+                >Комментарий</label
+              >
+              <textarea
+                rows="6"
+                name="comment"
+                placeholder="Введите текст"
+                class="contact-details-comment-input"
+              ></textarea>
+            </div>
+
+            <label class="checkbox-label">
+              <input
+                class="checkbox-input"
+                type="checkbox"
+                name="contract"
+                value="contract"
+              />
+              <svg class="checkbox-icon" width="16" height="15">
+                <use href="./images/sprite.svg#icon-check"></use>
+              </svg>
+              <a class="checkbox-link" href="#">
+                <span class="checkbox-text">
+                  Соглашаюсь с рассылкой и принимаю
+                </span>
+                Условия договора
+              </a>
+            </label>
+
+            <button type="submit" class="submit-btn">Отправить</button>
+          </form>
+        </div>
       </div>
     </div>
     <script>
