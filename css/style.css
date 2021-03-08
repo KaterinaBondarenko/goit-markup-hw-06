@@ -178,9 +178,6 @@ header {
 .contact-item .contacts-icon {
   fill: currentColor;
   margin-right: 10px;
-
-  transition-property: color;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-icon .contact-item:hover,
@@ -431,6 +428,7 @@ header {
   border-radius: 50%;
   fill: var(--social-icon-color);
 
+  transition-property: fill, background-color;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -552,18 +550,10 @@ footer .container {
   fill: var(--social-icon-color);
   background-color: var(--social-footer-icon);
   border-radius: 50%;
-
-  transition-property: background-color;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list:last-child {
   margin-right: 0px;
-}
-
-.footer-social-list:hover,
-.footer-social-list:focus {
-  background-color: var(--text-white);
 }
 
 .footer-link {
